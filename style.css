@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.recipes{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.recipe{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.recipes img{
+    width: 280px;
+    height: 280px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
